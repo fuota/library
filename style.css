@@ -1,0 +1,33 @@
+header{
+    background-color: aliceblue;
+    padding: 0 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.add{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
+.main {
+    padding: 1rem;
+}
+#add-btn {
+    /* text-align: center; */
+    width: fit-content;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+.library-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem 15%;
+}
+.book-item{
+    border: none;
+    background-color: aliceblue;
+}
